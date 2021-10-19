@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.SqlDataQuery", "DiCore.Lib.SqlDataQuery\DiCore.Lib.SqlDataQuery.csproj", "{903D2258-A9A6-482C-9330-C138FBBE9D21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.FastPropertyAccess", "DiCore.Lib.FastPropertyAccess\DiCore.Lib.FastPropertyAccess.csproj", "{3ADBDB18-3571-4424-8DD1-8EF9E983A237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.PgSqlAccess.Types", "DiCore.Lib.PgSqlAccess.Types\DiCore.Lib.PgSqlAccess.Types.csproj", "{4B6B5D8D-EBAA-442D-8C32-C3D02D63D657}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.PgSqlAccess", "DiCore.Lib.PgSqlAccess\DiCore.Lib.PgSqlAccess.csproj", "{413EB032-EB26-4E77-BD2C-8EACE6A2F57C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.SqlDataQuery.Tests", "DiCore.Lib.SqlDataQuery.Tests\DiCore.Lib.SqlDataQuery.Tests.csproj", "{ED2BDFF8-E013-4DEC-9A64-240648A959D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.FastPropertyAccess.Tests", "DiCore.Lib.FastPropertyAccess.Tests\DiCore.Lib.FastPropertyAccess.Tests.csproj", "{6829B22A-A18F-4B10-8FCC-1AF36092E6AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.PgSqlAccess.Tests", "DiCore.Lib.PgSqlAccess.Tests\DiCore.Lib.PgSqlAccess.Tests.csproj", "{D68777DE-FCFE-4DA4-846B-46A050E6AE38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiCore.Lib.TestModels", "DiCore.Lib.TestModels\DiCore.Lib.TestModels.csproj", "{D7E238DE-4ABC-4904-B8FB-DB1BE28FDF9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiCore.Lib.PgSqlAccess.Orm", "DiCore.Lib.PgSqlAccess.Orm\DiCore.Lib.PgSqlAccess.Orm.csproj", "{65254F17-3FD9-4304-878C-550C526765AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{903D2258-A9A6-482C-9330-C138FBBE9D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903D2258-A9A6-482C-9330-C138FBBE9D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903D2258-A9A6-482C-9330-C138FBBE9D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903D2258-A9A6-482C-9330-C138FBBE9D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADBDB18-3571-4424-8DD1-8EF9E983A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADBDB18-3571-4424-8DD1-8EF9E983A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADBDB18-3571-4424-8DD1-8EF9E983A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADBDB18-3571-4424-8DD1-8EF9E983A237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6B5D8D-EBAA-442D-8C32-C3D02D63D657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6B5D8D-EBAA-442D-8C32-C3D02D63D657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6B5D8D-EBAA-442D-8C32-C3D02D63D657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6B5D8D-EBAA-442D-8C32-C3D02D63D657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413EB032-EB26-4E77-BD2C-8EACE6A2F57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413EB032-EB26-4E77-BD2C-8EACE6A2F57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413EB032-EB26-4E77-BD2C-8EACE6A2F57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413EB032-EB26-4E77-BD2C-8EACE6A2F57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2BDFF8-E013-4DEC-9A64-240648A959D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2BDFF8-E013-4DEC-9A64-240648A959D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2BDFF8-E013-4DEC-9A64-240648A959D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2BDFF8-E013-4DEC-9A64-240648A959D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6829B22A-A18F-4B10-8FCC-1AF36092E6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6829B22A-A18F-4B10-8FCC-1AF36092E6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6829B22A-A18F-4B10-8FCC-1AF36092E6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6829B22A-A18F-4B10-8FCC-1AF36092E6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68777DE-FCFE-4DA4-846B-46A050E6AE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68777DE-FCFE-4DA4-846B-46A050E6AE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68777DE-FCFE-4DA4-846B-46A050E6AE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68777DE-FCFE-4DA4-846B-46A050E6AE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E238DE-4ABC-4904-B8FB-DB1BE28FDF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E238DE-4ABC-4904-B8FB-DB1BE28FDF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E238DE-4ABC-4904-B8FB-DB1BE28FDF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E238DE-4ABC-4904-B8FB-DB1BE28FDF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65254F17-3FD9-4304-878C-550C526765AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65254F17-3FD9-4304-878C-550C526765AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65254F17-3FD9-4304-878C-550C526765AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65254F17-3FD9-4304-878C-550C526765AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A63F21CB-2A32-473E-BF0F-C7F448E8D0EA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.ctd.tn.corp/devcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DiCore.Lib.SqlDataQuery\\DiCore.Lib.SqlDataQuery.csproj
+		SccProjectName1 = DiCore.Lib.SqlDataQuery
+		SccLocalPath1 = DiCore.Lib.SqlDataQuery
+		SccProjectUniqueName2 = DiCore.Lib.FastPropertyAccess\\DiCore.Lib.FastPropertyAccess.csproj
+		SccProjectName2 = DiCore.Lib.FastPropertyAccess
+		SccLocalPath2 = DiCore.Lib.FastPropertyAccess
+		SccProjectUniqueName3 = DiCore.Lib.PgSqlAccess.Types\\DiCore.Lib.PgSqlAccess.Types.csproj
+		SccProjectName3 = DiCore.Lib.PgSqlAccess.Types
+		SccLocalPath3 = DiCore.Lib.PgSqlAccess.Types
+		SccProjectUniqueName4 = DiCore.Lib.PgSqlAccess\\DiCore.Lib.PgSqlAccess.csproj
+		SccProjectName4 = DiCore.Lib.PgSqlAccess
+		SccLocalPath4 = DiCore.Lib.PgSqlAccess
+		SccProjectUniqueName5 = DiCore.Lib.SqlDataQuery.Tests\\DiCore.Lib.SqlDataQuery.Tests.csproj
+		SccProjectName5 = DiCore.Lib.SqlDataQuery.Tests
+		SccLocalPath5 = DiCore.Lib.SqlDataQuery.Tests
+		SccProjectUniqueName6 = DiCore.Lib.FastPropertyAccess.Tests\\DiCore.Lib.FastPropertyAccess.Tests.csproj
+		SccProjectName6 = DiCore.Lib.FastPropertyAccess.Tests
+		SccLocalPath6 = DiCore.Lib.FastPropertyAccess.Tests
+		SccProjectUniqueName7 = DiCore.Lib.PgSqlAccess.Tests\\DiCore.Lib.PgSqlAccess.Tests.csproj
+		SccProjectName7 = DiCore.Lib.PgSqlAccess.Tests
+		SccLocalPath7 = DiCore.Lib.PgSqlAccess.Tests
+		SccProjectUniqueName8 = DiCore.Lib.TestModels\\DiCore.Lib.TestModels.csproj
+		SccProjectName8 = DiCore.Lib.TestModels
+		SccLocalPath8 = DiCore.Lib.TestModels
+		SccProjectUniqueName9 = DiCore.Lib.PgSqlAccess.Orm\\DiCore.Lib.PgSqlAccess.Orm.csproj
+		SccProjectName9 = DiCore.Lib.PgSqlAccess.Orm
+		SccLocalPath9 = DiCore.Lib.PgSqlAccess.Orm
+	EndGlobalSection
+EndGlobal
